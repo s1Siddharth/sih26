@@ -1,0 +1,178 @@
+[
+  {
+    "district": "Pune",
+    "top_industries": ["Manufacturing", "Automobile", "IT", "Automation"],
+    "priority_skills": ["5-Axis CNC Programming", "EV Battery Diagnostics", "PLC Programming", "Robotic Welding", "IoT Sensor Integration"],
+    "recommended_program_mix": {
+      "ITI_seats": 4200,
+      "PMKVY_seats": 1800,
+      "State_seats": 600,
+      "NSDC_seats": 500
+    },
+    "current_capacity": {
+      "ITI_seats": 3800,
+      "PMKVY_seats": 1200,
+      "State_seats": 380,
+      "NSDC_seats": 320
+    },
+    "capacity_gap": "+1380 seats needed",
+    "placement_target": 78,
+    "current_placement_rate": 74.2,
+    "investment_priority": ["5-axis CNC machines", "EV training equipment", "IoT lab setup", "PLC training licenses"],
+    "key_employers": ["Tata Motors", "Bajaj Auto", "Bosch", "L&T", "Siemens", "Bharat Forge"]
+  },
+  {
+    "district": "Mumbai",
+    "top_industries": ["IT", "Construction", "Electrical", "HVAC", "Emerging Tech"],
+    "priority_skills": ["Network & Cybersecurity", "HVAC VRV/VRF", "EV Charging Installation", "Solar PV", "3D Printing"],
+    "recommended_program_mix": {
+      "ITI_seats": 5000,
+      "PMKVY_seats": 2500,
+      "State_seats": 400,
+      "NSDC_seats": 350
+    },
+    "current_capacity": {
+      "ITI_seats": 4600,
+      "PMKVY_seats": 1800,
+      "State_seats": 0,
+      "NSDC_seats": 250
+    },
+    "capacity_gap": "+1600 seats needed",
+    "placement_target": 72,
+    "current_placement_rate": 65.8,
+    "investment_priority": ["VRV/VRF training units", "EV charging equipment", "Cybersecurity lab", "3D printing lab"],
+    "key_employers": ["L&T", "Shapoorji Pallonji", "Blue Star", "HCL", "Tata Power", "Godrej"]
+  },
+  {
+    "district": "Nagpur",
+    "top_industries": ["Manufacturing", "Electrical", "IT", "Construction"],
+    "priority_skills": ["Electrician (Solar)", "CNC Operation", "Networking", "PLC Basics"],
+    "recommended_program_mix": {
+      "ITI_seats": 3000,
+      "PMKVY_seats": 1200,
+      "State_seats": 200,
+      "NSDC_seats": 150
+    },
+    "current_capacity": {
+      "ITI_seats": 2800,
+      "PMKVY_seats": 900,
+      "State_seats": 0,
+      "NSDC_seats": 0
+    },
+    "capacity_gap": "+650 seats needed",
+    "placement_target": 65,
+    "current_placement_rate": 58.4,
+    "investment_priority": ["Solar training equipment", "CNC machine upgrades", "PMKVY expansion", "Drone training center"],
+    "key_employers": ["MIHAN industries", "Infosys BPO", "Reliance", "Solar Energy Corp"]
+  },
+  {
+    "district": "Nashik",
+    "top_industries": ["Manufacturing", "Automobile", "Electrical", "Automation"],
+    "priority_skills": ["5-Axis CNC", "CAM Software", "Robotic Welding", "Industrial Automation", "3D Printing"],
+    "recommended_program_mix": {
+      "ITI_seats": 3200,
+      "PMKVY_seats": 1000,
+      "State_seats": 400,
+      "NSDC_seats": 300
+    },
+    "current_capacity": {
+      "ITI_seats": 2900,
+      "PMKVY_seats": 600,
+      "State_seats": 180,
+      "NSDC_seats": 0
+    },
+    "capacity_gap": "+1220 seats needed",
+    "placement_target": 75,
+    "current_placement_rate": 71.0,
+    "investment_priority": ["5-axis CNC machines", "CAM software licenses", "Drone training facility", "Robotic welding cells"],
+    "key_employers": ["HAL", "Mahindra", "ABB", "Crompton", "Thermax"]
+  },
+  {
+    "district": "Aurangabad",
+    "top_industries": ["Automobile", "Manufacturing", "Electrical", "Automation"],
+    "priority_skills": ["Robotic Welding", "CNC Programming", "EV Technology", "PLC Programming"],
+    "recommended_program_mix": {
+      "ITI_seats": 2800,
+      "PMKVY_seats": 900,
+      "State_seats": 300,
+      "NSDC_seats": 250
+    },
+    "current_capacity": {
+      "ITI_seats": 2500,
+      "PMKVY_seats": 500,
+      "State_seats": 0,
+      "NSDC_seats": 200
+    },
+    "capacity_gap": "+1050 seats needed",
+    "placement_target": 73,
+    "current_placement_rate": 68.5,
+    "investment_priority": ["Robotic welding training cells", "EV lab equipment", "PLC training kits", "Updated CNC machines"],
+    "key_employers": ["Bajaj Auto", "Skoda VW", "Endurance", "Varroc", "Videocon"]
+  },
+  {
+    "district": "Thane",
+    "top_industries": ["Manufacturing", "IT", "Electrical", "Automobile", "HVAC"],
+    "priority_skills": ["PLC/SCADA", "Industrial Networking", "HVAC Systems", "EV Service"],
+    "recommended_program_mix": {
+      "ITI_seats": 3500,
+      "PMKVY_seats": 1500,
+      "State_seats": 300,
+      "NSDC_seats": 200
+    },
+    "current_capacity": {
+      "ITI_seats": 3200,
+      "PMKVY_seats": 1000,
+      "State_seats": 0,
+      "NSDC_seats": 0
+    },
+    "capacity_gap": "+1300 seats needed",
+    "placement_target": 72,
+    "current_placement_rate": 66.2,
+    "investment_priority": ["PLC/SCADA training lab", "VRV/VRF equipment", "Industrial networking lab", "PMKVY new center"],
+    "key_employers": ["Siemens", "Honeywell", "Daikin", "Voltas", "Raymond"]
+  },
+  {
+    "district": "Kolhapur",
+    "top_industries": ["Manufacturing", "Construction", "Electrical", "Automobile"],
+    "priority_skills": ["Welding (Advanced)", "Plumbing (Modern)", "Solar Installation", "Basic Automation"],
+    "recommended_program_mix": {
+      "ITI_seats": 2000,
+      "PMKVY_seats": 800,
+      "State_seats": 150,
+      "NSDC_seats": 100
+    },
+    "current_capacity": {
+      "ITI_seats": 1800,
+      "PMKVY_seats": 500,
+      "State_seats": 0,
+      "NSDC_seats": 0
+    },
+    "capacity_gap": "+750 seats needed",
+    "placement_target": 62,
+    "current_placement_rate": 55.0,
+    "investment_priority": ["PMKVY center establishment", "Solar training kits", "Modern plumbing equipment", "Welding upgrade"],
+    "key_employers": ["Kirloskar", "Finolex", "Gokul Engineering", "Kolhapur Foundries"]
+  },
+  {
+    "district": "Solapur",
+    "top_industries": ["Manufacturing", "Electrical", "HVAC", "Construction"],
+    "priority_skills": ["RAC/HVAC Advanced", "Solar PV", "Electrician (Modern)", "Basic CNC"],
+    "recommended_program_mix": {
+      "ITI_seats": 1800,
+      "PMKVY_seats": 700,
+      "State_seats": 100,
+      "NSDC_seats": 80
+    },
+    "current_capacity": {
+      "ITI_seats": 1600,
+      "PMKVY_seats": 400,
+      "State_seats": 0,
+      "NSDC_seats": 0
+    },
+    "capacity_gap": "+680 seats needed",
+    "placement_target": 60,
+    "current_placement_rate": 52.5,
+    "investment_priority": ["HVAC training lab upgrade", "Solar PV training kits", "PMKVY expansion", "CNC training machine"],
+    "key_employers": ["Solapur Textile Mills", "ACC Cement", "Blue Star", "Thermax"]
+  }
+]

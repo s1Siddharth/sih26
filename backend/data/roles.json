@@ -1,0 +1,172 @@
+{
+  "meta": {
+    "geography": "Maharashtra",
+    "data_status": "demo",
+    "note": "Qualitative Maharashtra demo corpus for SIH26134. Not live vacancy counts or verified district-level statistics."
+  },
+  "roles": [
+    {
+      "id": "role_network_support",
+      "name": "IT Support and Networking Technician",
+      "sector": "IT / Digital",
+      "typical_locations": ["Nagpur", "Mumbai", "Pune"],
+      "required_skills": [
+        {"skill_id": "sk_pc_hardware", "weight": 1.0, "proficiency": "intermediate"},
+        {"skill_id": "sk_computer_networking", "weight": 1.0, "proficiency": "intermediate"},
+        {"skill_id": "sk_linux_administration", "weight": 0.8, "proficiency": "basic"},
+        {"skill_id": "sk_cybersecurity_fundamentals", "weight": 0.8, "proficiency": "basic"},
+        {"skill_id": "sk_ms_office", "weight": 0.6, "proficiency": "intermediate"},
+        {"skill_id": "sk_data_entry", "weight": 0.3, "proficiency": "basic"}
+      ]
+    },
+    {
+      "id": "role_python_analyst",
+      "name": "Junior Python / Data Support Associate",
+      "sector": "IT / Digital",
+      "typical_locations": ["Pune", "Mumbai"],
+      "required_skills": [
+        {"skill_id": "sk_python_programming", "weight": 1.0, "proficiency": "intermediate"},
+        {"skill_id": "sk_sql_databases", "weight": 0.9, "proficiency": "intermediate"},
+        {"skill_id": "sk_javascript", "weight": 0.6, "proficiency": "basic"},
+        {"skill_id": "sk_cybersecurity_fundamentals", "weight": 0.5, "proficiency": "basic"}
+      ]
+    },
+    {
+      "id": "role_cnc_operator",
+      "name": "CNC Machine Operator",
+      "sector": "Manufacturing",
+      "typical_locations": ["Nashik", "Pune", "Aurangabad"],
+      "required_skills": [
+        {"skill_id": "sk_cnc_programming", "weight": 1.0, "proficiency": "intermediate"},
+        {"skill_id": "sk_g_code_m_code", "weight": 0.9, "proficiency": "intermediate"},
+        {"skill_id": "sk_blueprint_reading", "weight": 0.8, "proficiency": "intermediate"},
+        {"skill_id": "sk_precision_measurement", "weight": 0.8, "proficiency": "intermediate"},
+        {"skill_id": "sk_gd_and_t", "weight": 0.7, "proficiency": "basic"},
+        {"skill_id": "sk_quality_inspection", "weight": 0.7, "proficiency": "intermediate"},
+        {"skill_id": "sk_five_axis_cnc", "weight": 0.6, "proficiency": "basic"},
+        {"skill_id": "sk_cam_software", "weight": 0.6, "proficiency": "basic"}
+      ]
+    },
+    {
+      "id": "role_automation_technician",
+      "name": "Industrial Automation Technician",
+      "sector": "Manufacturing",
+      "typical_locations": ["Pune", "Thane"],
+      "required_skills": [
+        {"skill_id": "sk_plc_programming", "weight": 1.0, "proficiency": "intermediate"},
+        {"skill_id": "sk_scada_hmi", "weight": 0.9, "proficiency": "intermediate"},
+        {"skill_id": "sk_iot_sensors", "weight": 0.8, "proficiency": "basic"},
+        {"skill_id": "sk_industrial_wiring", "weight": 0.8, "proficiency": "intermediate"},
+        {"skill_id": "sk_lean_manufacturing", "weight": 0.5, "proficiency": "basic"}
+      ]
+    },
+    {
+      "id": "role_welder",
+      "name": "Welder (MIG/TIG and Robotic)",
+      "sector": "Manufacturing",
+      "typical_locations": ["Pune", "Aurangabad"],
+      "required_skills": [
+        {"skill_id": "sk_mig_welding", "weight": 1.0, "proficiency": "intermediate"},
+        {"skill_id": "sk_tig_welding", "weight": 0.9, "proficiency": "intermediate"},
+        {"skill_id": "sk_robotic_welding", "weight": 0.8, "proficiency": "basic"},
+        {"skill_id": "sk_blueprint_reading", "weight": 0.7, "proficiency": "intermediate"},
+        {"skill_id": "sk_quality_inspection", "weight": 0.7, "proficiency": "intermediate"},
+        {"skill_id": "sk_gas_welding", "weight": 0.3, "proficiency": "basic"}
+      ]
+    },
+    {
+      "id": "role_ev_technician",
+      "name": "EV Service Technician",
+      "sector": "Automotive / EV",
+      "typical_locations": ["Pune", "Mumbai"],
+      "required_skills": [
+        {"skill_id": "sk_ev_battery_diagnostics", "weight": 1.0, "proficiency": "intermediate"},
+        {"skill_id": "sk_bms_diagnostics", "weight": 1.0, "proficiency": "intermediate"},
+        {"skill_id": "sk_high_voltage_safety", "weight": 1.0, "proficiency": "advanced"},
+        {"skill_id": "sk_can_bus", "weight": 0.8, "proficiency": "basic"},
+        {"skill_id": "sk_charging_infrastructure", "weight": 0.7, "proficiency": "intermediate"}
+      ]
+    },
+    {
+      "id": "role_auto_service",
+      "name": "Automotive Service Technician",
+      "sector": "Automotive / EV",
+      "typical_locations": ["Thane", "Aurangabad"],
+      "required_skills": [
+        {"skill_id": "sk_ice_engine_diagnostics", "weight": 1.0, "proficiency": "intermediate"},
+        {"skill_id": "sk_automotive_electrical", "weight": 0.9, "proficiency": "intermediate"},
+        {"skill_id": "sk_diesel_overhaul", "weight": 0.4, "proficiency": "intermediate"}
+      ]
+    },
+    {
+      "id": "role_gda",
+      "name": "General Duty Assistant",
+      "sector": "Healthcare",
+      "typical_locations": ["Mumbai", "Pune", "Nagpur"],
+      "required_skills": [
+        {"skill_id": "sk_patient_care", "weight": 1.0, "proficiency": "intermediate"},
+        {"skill_id": "sk_vital_signs", "weight": 0.9, "proficiency": "intermediate"},
+        {"skill_id": "sk_infection_control", "weight": 1.0, "proficiency": "intermediate"},
+        {"skill_id": "sk_medical_records", "weight": 0.6, "proficiency": "basic"}
+      ]
+    },
+    {
+      "id": "role_phlebotomist",
+      "name": "Phlebotomy Technician",
+      "sector": "Healthcare",
+      "typical_locations": ["Mumbai", "Nagpur"],
+      "required_skills": [
+        {"skill_id": "sk_phlebotomy", "weight": 1.0, "proficiency": "intermediate"},
+        {"skill_id": "sk_infection_control", "weight": 0.9, "proficiency": "intermediate"},
+        {"skill_id": "sk_medical_records", "weight": 0.7, "proficiency": "basic"}
+      ]
+    },
+    {
+      "id": "role_warehouse_associate",
+      "name": "Warehouse Associate",
+      "sector": "Logistics",
+      "typical_locations": ["Mumbai", "Thane", "Pune"],
+      "required_skills": [
+        {"skill_id": "sk_warehouse_operations", "weight": 1.0, "proficiency": "intermediate"},
+        {"skill_id": "sk_inventory_management", "weight": 0.9, "proficiency": "intermediate"},
+        {"skill_id": "sk_forklift_operation", "weight": 0.8, "proficiency": "intermediate"},
+        {"skill_id": "sk_wms_software", "weight": 0.7, "proficiency": "basic"}
+      ]
+    },
+    {
+      "id": "role_dispatch_coordinator",
+      "name": "Dispatch and Documentation Coordinator",
+      "sector": "Logistics",
+      "typical_locations": ["Mumbai", "Pune"],
+      "required_skills": [
+        {"skill_id": "sk_gst_documentation", "weight": 1.0, "proficiency": "intermediate"},
+        {"skill_id": "sk_inventory_management", "weight": 0.8, "proficiency": "intermediate"},
+        {"skill_id": "sk_warehouse_operations", "weight": 0.6, "proficiency": "basic"}
+      ]
+    },
+    {
+      "id": "role_solar_installer",
+      "name": "Solar PV Installer",
+      "sector": "Renewable Energy",
+      "typical_locations": ["Pune", "Solapur", "Nagpur"],
+      "required_skills": [
+        {"skill_id": "sk_solar_pv_installation", "weight": 1.0, "proficiency": "intermediate"},
+        {"skill_id": "sk_solar_dc_wiring", "weight": 1.0, "proficiency": "intermediate"},
+        {"skill_id": "sk_inverter_commissioning", "weight": 0.9, "proficiency": "intermediate"},
+        {"skill_id": "sk_net_metering", "weight": 0.8, "proficiency": "basic"},
+        {"skill_id": "sk_site_survey_solar", "weight": 0.7, "proficiency": "basic"}
+      ]
+    },
+    {
+      "id": "role_solar_storage",
+      "name": "Solar Storage and Commissioning Technician",
+      "sector": "Renewable Energy",
+      "typical_locations": ["Pune", "Mumbai"],
+      "required_skills": [
+        {"skill_id": "sk_battery_storage", "weight": 1.0, "proficiency": "intermediate"},
+        {"skill_id": "sk_solar_dc_wiring", "weight": 0.8, "proficiency": "intermediate"},
+        {"skill_id": "sk_inverter_commissioning", "weight": 0.8, "proficiency": "intermediate"}
+      ]
+    }
+  ]
+}

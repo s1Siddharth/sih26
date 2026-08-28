@@ -1,0 +1,228 @@
+{
+  "district_demand": [
+    {
+      "district": "Pune",
+      "total_openings": 8250,
+      "sectors": { "Manufacturing": 2200, "IT": 2100, "Automobile": 1200, "Automation": 900, "Electrical": 750, "Construction": 500, "Emerging Tech": 600 },
+      "growth_trend": "+18%",
+      "top_roles": ["Software Developer", "CNC Operator", "Data Analyst", "Industrial Electrician", "Automation Technician", "DevOps Engineer"]
+    },
+    {
+      "district": "Mumbai",
+      "total_openings": 9500,
+      "sectors": { "IT": 3800, "Construction": 1500, "Electrical": 1000, "HVAC": 700, "Manufacturing": 800, "Personal Services": 600, "Emerging Tech": 1100 },
+      "growth_trend": "+12%",
+      "top_roles": ["Full Stack Developer", "Network Engineer", "Cybersecurity Analyst", "Plumber", "HVAC Mechanic", "UI/UX Designer"]
+    },
+    {
+      "district": "Nagpur",
+      "total_openings": 3800,
+      "sectors": { "Manufacturing": 1100, "IT": 900, "Electrical": 750, "Construction": 480, "Automobile": 350, "HVAC": 220 },
+      "growth_trend": "+10%",
+      "top_roles": ["Electrician", "Web Developer", "Fitter", "COPA Technician", "Welder", "Python Developer"]
+    },
+    {
+      "district": "Nashik",
+      "total_openings": 4200,
+      "sectors": { "Manufacturing": 1600, "Automobile": 900, "Electrical": 650, "Automation": 550, "IT": 300, "Construction": 200 },
+      "growth_trend": "+20%",
+      "top_roles": ["CNC Programmer", "Machinist", "EV Technician", "Industrial Electrician", "Draughtsman"]
+    },
+    {
+      "district": "Chhatrapati Sambhajinagar",
+      "total_openings": 3200,
+      "sectors": { "Automobile": 1100, "Manufacturing": 950, "Electrical": 550, "IT": 350, "Automation": 250 },
+      "growth_trend": "+22%",
+      "top_roles": ["Robotic Welding Operator", "CNC Operator", "Turner", "Auto Mechanic", "Mobile App Developer"]
+    },
+    {
+      "district": "Thane",
+      "total_openings": 5100,
+      "sectors": { "Manufacturing": 1200, "IT": 1500, "Electrical": 800, "Automobile": 600, "HVAC": 500, "Construction": 500 },
+      "growth_trend": "+14%",
+      "top_roles": ["Software Engineer", "Electrician", "Instrument Mechanic", "HVAC Technician", "React Developer"]
+    },
+    {
+      "district": "Kolhapur",
+      "total_openings": 2400,
+      "sectors": { "Manufacturing": 900, "Construction": 550, "Electrical": 450, "Automobile": 300, "IT": 200 },
+      "growth_trend": "+8%",
+      "top_roles": ["Fitter", "Plumber", "Welder", "Electrician", "Computer Operator"]
+    },
+    {
+      "district": "Solapur",
+      "total_openings": 2100,
+      "sectors": { "Manufacturing": 650, "Electrical": 480, "HVAC": 420, "Construction": 350, "Automobile": 200 },
+      "growth_trend": "+9%",
+      "top_roles": ["RAC Mechanic", "Electrician", "Fitter", "Welder", "COPA Operator"]
+    },
+    {
+      "district": "Nanded",
+      "total_openings": 1400,
+      "sectors": { "Manufacturing": 500, "Electrical": 350, "Construction": 300, "HVAC": 150, "IT": 100 },
+      "growth_trend": "+6%",
+      "top_roles": ["Electrician", "Fitter", "Welder", "Plumber", "Data Entry"]
+    },
+    {
+      "district": "Amravati",
+      "total_openings": 1600,
+      "sectors": { "Manufacturing": 600, "Electrical": 400, "IT": 200, "Construction": 250, "Automobile": 150 },
+      "growth_trend": "+7%",
+      "top_roles": ["Machinist", "Electrician", "Computer Operator", "Draughtsman", "Welder"]
+    },
+    {
+      "district": "Sangli",
+      "total_openings": 1800,
+      "sectors": { "Manufacturing": 700, "Electrical": 420, "HVAC": 280, "Construction": 250, "IT": 150 },
+      "growth_trend": "+8%",
+      "top_roles": ["Fitter", "Electrician", "RAC Mechanic", "Plumber", "Welder"]
+    },
+    {
+      "district": "Raigad",
+      "total_openings": 2200,
+      "sectors": { "Manufacturing": 700, "Construction": 600, "Electrical": 400, "IT": 300, "HVAC": 200 },
+      "growth_trend": "+11%",
+      "top_roles": ["Construction Supervisor", "Electrician", "Python Developer", "Plumber", "Welder"]
+    },
+    {
+      "district": "Palghar",
+      "total_openings": 2600,
+      "sectors": { "Manufacturing": 950, "IT": 600, "Electrical": 500, "Automobile": 350, "Construction": 200 },
+      "growth_trend": "+13%",
+      "top_roles": ["Turner", "Web Developer", "Electrician", "CNC Operator", "QC Inspector"]
+    },
+    {
+      "district": "Jalgaon",
+      "total_openings": 1500,
+      "sectors": { "Manufacturing": 550, "Electrical": 380, "Construction": 280, "Automobile": 180, "IT": 110 },
+      "growth_trend": "+5%",
+      "top_roles": ["Machinist", "Electrician", "Welder", "Fitter", "Computer Operator"]
+    },
+    {
+      "district": "Satara",
+      "total_openings": 1700,
+      "sectors": { "Manufacturing": 620, "Automobile": 400, "Electrical": 380, "Construction": 200, "IT": 100 },
+      "growth_trend": "+9%",
+      "top_roles": ["Fitter", "Turner", "Electrician", "Auto Mechanic", "Welder"]
+    },
+    {
+      "district": "Ahmednagar",
+      "total_openings": 1900,
+      "sectors": { "Manufacturing": 700, "Automobile": 450, "Electrical": 400, "Construction": 250, "IT": 100 },
+      "growth_trend": "+10%",
+      "top_roles": ["CNC Operator", "Electrician", "Auto Mechanic", "Fitter", "Turner"]
+    },
+    {
+      "district": "Latur",
+      "total_openings": 1100,
+      "sectors": { "Manufacturing": 400, "Electrical": 280, "Construction": 230, "HVAC": 120, "IT": 70 },
+      "growth_trend": "+5%",
+      "top_roles": ["Electrician", "Fitter", "Plumber", "Welder", "Data Entry Operator"]
+    },
+    {
+      "district": "Beed",
+      "total_openings": 900,
+      "sectors": { "Manufacturing": 350, "Electrical": 230, "Construction": 200, "Automobile": 120 },
+      "growth_trend": "+4%",
+      "top_roles": ["Fitter", "Electrician", "Welder", "Turner"]
+    },
+    {
+      "district": "Yavatmal",
+      "total_openings": 1000,
+      "sectors": { "Manufacturing": 380, "Electrical": 260, "Construction": 220, "Automobile": 140 },
+      "growth_trend": "+5%",
+      "top_roles": ["Electrician", "Machinist", "Welder", "Fitter"]
+    },
+    {
+      "district": "Wardha",
+      "total_openings": 1200,
+      "sectors": { "Manufacturing": 450, "Electrical": 300, "IT": 200, "Construction": 150, "Automobile": 100 },
+      "growth_trend": "+7%",
+      "top_roles": ["Electrician", "CNC Operator", "Computer Operator", "Fitter", "Welder"]
+    }
+  ],
+  "trending_skills": [
+    {"skill": "Full Stack Web Development (MERN)", "growth_percent": 420, "sector": "IT", "demand": "high"},
+    {"skill": "EV Battery Diagnostics & BMS", "growth_percent": 340, "sector": "Automobile", "demand": "high"},
+    {"skill": "Python & Data Analysis", "growth_percent": 280, "sector": "IT", "demand": "high"},
+    {"skill": "Cloud Computing (AWS/Azure)", "growth_percent": 260, "sector": "IT", "demand": "high"},
+    {"skill": "PLC Programming (Siemens/AB)", "growth_percent": 180, "sector": "Automation", "demand": "high"},
+    {"skill": "Solar PV Installation & Commissioning", "growth_percent": 165, "sector": "Renewable Energy", "demand": "high"},
+    {"skill": "Cybersecurity & Network Security", "growth_percent": 155, "sector": "IT", "demand": "high"},
+    {"skill": "5-Axis CNC Programming (CAM)", "growth_percent": 150, "sector": "Manufacturing", "demand": "high"},
+    {"skill": "Machine Learning & AI Basics", "growth_percent": 145, "sector": "IT", "demand": "high"},
+    {"skill": "IoT Sensor Integration & MQTT", "growth_percent": 140, "sector": "Automation", "demand": "high"},
+    {"skill": "React.js / Angular Frontend Dev", "growth_percent": 135, "sector": "IT", "demand": "high"},
+    {"skill": "VRV/VRF HVAC System Maintenance", "growth_percent": 120, "sector": "HVAC", "demand": "high"},
+    {"skill": "Robotic Arm Programming (KUKA/FANUC)", "growth_percent": 110, "sector": "Manufacturing", "demand": "high"},
+    {"skill": "DevOps & CI/CD Pipelines", "growth_percent": 105, "sector": "IT", "demand": "medium"},
+    {"skill": "Industrial SCADA / HMI Config", "growth_percent": 88, "sector": "Automation", "demand": "medium"},
+    {"skill": "Mobile App Development (Android/iOS)", "growth_percent": 85, "sector": "IT", "demand": "medium"},
+    {"skill": "PCB-Level Troubleshooting", "growth_percent": 75, "sector": "Electronics", "demand": "medium"},
+    {"skill": "GD&T (ASME Y14.5) & Metrology", "growth_percent": 60, "sector": "Manufacturing", "demand": "medium"},
+    {"skill": "Database Administration (SQL/NoSQL)", "growth_percent": 55, "sector": "IT", "demand": "medium"},
+    {"skill": "Lean Manufacturing & Six Sigma", "growth_percent": 50, "sector": "Manufacturing", "demand": "medium"}
+  ],
+  "emerging_skills": [
+    {"skill": "Generative AI & LLM Integration", "sector": "IT", "readiness": "Now", "impact": "very high"},
+    {"skill": "AI-Powered Predictive Maintenance", "sector": "Automation", "readiness": "1-2 years", "impact": "high"},
+    {"skill": "Digital Twin Technology", "sector": "Manufacturing", "readiness": "2-3 years", "impact": "high"},
+    {"skill": "Edge Computing & Fog Computing", "sector": "IT", "readiness": "1-2 years", "impact": "high"},
+    {"skill": "Collaborative Robot (Cobot) Operation", "sector": "Manufacturing", "readiness": "1-2 years", "impact": "high"},
+    {"skill": "Hydrogen Fuel Cell Servicing", "sector": "Automobile", "readiness": "3-5 years", "impact": "medium"},
+    {"skill": "Blockchain for Supply Chain", "sector": "IT", "readiness": "2-3 years", "impact": "medium"},
+    {"skill": "Augmented Reality Maintenance (AR)", "sector": "Manufacturing", "readiness": "2-3 years", "impact": "medium"},
+    {"skill": "Drone-Based Industrial Inspection", "sector": "Emerging Tech", "readiness": "1-2 years", "impact": "medium"},
+    {"skill": "Smart Grid & Energy Management Systems", "sector": "Electrical", "readiness": "2-3 years", "impact": "high"},
+    {"skill": "Metal 3D Printing (SLM/DMLS)", "sector": "Emerging Tech", "readiness": "2-3 years", "impact": "medium"},
+    {"skill": "Cybersecurity for OT/ICS Networks", "sector": "IT", "readiness": "1-2 years", "impact": "high"}
+  ],
+  "declining_skills": [
+    {"skill": "Manual Typewriting / DTP Basic", "decline_percent": -85, "sector": "IT", "reason": "Fully replaced by modern computers & AI"},
+    {"skill": "Diesel Engine Overhauling (Traditional)", "decline_percent": -45, "sector": "Automobile", "reason": "EV transition reducing ICE demand"},
+    {"skill": "Gas Welding (Oxy-Acetylene)", "decline_percent": -35, "sector": "Manufacturing", "reason": "MIG/TIG/Robotic welding preferred by industry"},
+    {"skill": "CRT Television Repair", "decline_percent": -90, "sector": "Electronics", "reason": "CRT technology completely obsolete"},
+    {"skill": "Landline Telephone Installation", "decline_percent": -70, "sector": "Electrical", "reason": "Mobiles replaced landlines fully"},
+    {"skill": "Manual Drafting (Drawing Board)", "decline_percent": -60, "sector": "Design", "reason": "AutoCAD/SolidWorks is industry standard"},
+    {"skill": "Basic Data Entry (Typing Only)", "decline_percent": -40, "sector": "IT", "reason": "AI/Automation tools handling bulk entry"},
+    {"skill": "Cassette/VCR/DVD Repair", "decline_percent": -95, "sector": "Electronics", "reason": "Streaming services made physical media obsolete"},
+    {"skill": "Carburetor Engine Repair", "decline_percent": -50, "sector": "Automobile", "reason": "Fuel injection systems replaced carburetors"},
+    {"skill": "Flash/ActionScript Programming", "decline_percent": -88, "sector": "IT", "reason": "Adobe Flash discontinued, HTML5 standard"}
+  ],
+  "job_trends": [
+    {"month": "Sep 2025", "Manufacturing": 820, "IT": 950, "Automobile": 480, "Electrical": 520, "Automation": 280, "HVAC": 210, "Construction": 380},
+    {"month": "Oct 2025", "Manufacturing": 880, "IT": 1050, "Automobile": 510, "Electrical": 540, "Automation": 310, "HVAC": 230, "Construction": 400},
+    {"month": "Nov 2025", "Manufacturing": 920, "IT": 1100, "Automobile": 530, "Electrical": 560, "Automation": 340, "HVAC": 250, "Construction": 420},
+    {"month": "Dec 2025", "Manufacturing": 780, "IT": 980, "Automobile": 450, "Electrical": 480, "Automation": 290, "HVAC": 190, "Construction": 350},
+    {"month": "Jan 2026", "Manufacturing": 850, "IT": 1080, "Automobile": 490, "Electrical": 530, "Automation": 320, "HVAC": 220, "Construction": 380},
+    {"month": "Feb 2026", "Manufacturing": 900, "IT": 1150, "Automobile": 520, "Electrical": 550, "Automation": 350, "HVAC": 240, "Construction": 410},
+    {"month": "Mar 2026", "Manufacturing": 960, "IT": 1200, "Automobile": 560, "Electrical": 580, "Automation": 380, "HVAC": 260, "Construction": 440},
+    {"month": "Apr 2026", "Manufacturing": 1020, "IT": 1280, "Automobile": 590, "Electrical": 600, "Automation": 410, "HVAC": 280, "Construction": 460},
+    {"month": "May 2026", "Manufacturing": 980, "IT": 1220, "Automobile": 570, "Electrical": 570, "Automation": 390, "HVAC": 270, "Construction": 430},
+    {"month": "Jun 2026", "Manufacturing": 1050, "IT": 1350, "Automobile": 610, "Electrical": 620, "Automation": 430, "HVAC": 290, "Construction": 470},
+    {"month": "Jul 2026", "Manufacturing": 1100, "IT": 1420, "Automobile": 640, "Electrical": 640, "Automation": 450, "HVAC": 300, "Construction": 490},
+    {"month": "Aug 2026", "Manufacturing": 1150, "IT": 1500, "Automobile": 670, "Electrical": 660, "Automation": 470, "HVAC": 320, "Construction": 510}
+  ],
+  "placement_overview": [
+    {"district": "Pune", "placement_rate": 74.2, "avg_salary": 28000, "total_placed": 3200, "state_target": 70},
+    {"district": "Mumbai", "placement_rate": 71.5, "avg_salary": 32000, "total_placed": 4100, "state_target": 70},
+    {"district": "Nashik", "placement_rate": 71.0, "avg_salary": 22000, "total_placed": 1850, "state_target": 70},
+    {"district": "Thane", "placement_rate": 69.8, "avg_salary": 25000, "total_placed": 2200, "state_target": 70},
+    {"district": "Chhatrapati Sambhajinagar", "placement_rate": 68.5, "avg_salary": 19500, "total_placed": 1400, "state_target": 70},
+    {"district": "Nagpur", "placement_rate": 65.2, "avg_salary": 20000, "total_placed": 1500, "state_target": 70},
+    {"district": "Palghar", "placement_rate": 63.4, "avg_salary": 21000, "total_placed": 1100, "state_target": 70},
+    {"district": "Sangli", "placement_rate": 62.0, "avg_salary": 18000, "total_placed": 820, "state_target": 70},
+    {"district": "Ahmednagar", "placement_rate": 60.5, "avg_salary": 17500, "total_placed": 780, "state_target": 70},
+    {"district": "Satara", "placement_rate": 60.0, "avg_salary": 17000, "total_placed": 730, "state_target": 70},
+    {"district": "Kolhapur", "placement_rate": 58.8, "avg_salary": 17000, "total_placed": 820, "state_target": 70},
+    {"district": "Solapur", "placement_rate": 57.5, "avg_salary": 16000, "total_placed": 680, "state_target": 70},
+    {"district": "Jalgaon", "placement_rate": 56.0, "avg_salary": 15500, "total_placed": 550, "state_target": 70},
+    {"district": "Amravati", "placement_rate": 55.5, "avg_salary": 15500, "total_placed": 600, "state_target": 70},
+    {"district": "Nanded", "placement_rate": 54.0, "avg_salary": 15000, "total_placed": 480, "state_target": 70},
+    {"district": "Raigad", "placement_rate": 62.0, "avg_salary": 19000, "total_placed": 900, "state_target": 70},
+    {"district": "Wardha", "placement_rate": 58.0, "avg_salary": 16500, "total_placed": 520, "state_target": 70},
+    {"district": "Yavatmal", "placement_rate": 50.5, "avg_salary": 14500, "total_placed": 340, "state_target": 70},
+    {"district": "Beed", "placement_rate": 48.0, "avg_salary": 14000, "total_placed": 280, "state_target": 70},
+    {"district": "Latur", "placement_rate": 52.0, "avg_salary": 14500, "total_placed": 380, "state_target": 70}
+  ]
+}

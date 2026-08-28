@@ -1,0 +1,381 @@
+--- JOB POSTING 1 ---
+Title: CNC Machine Operator
+Company: Tata Advanced Systems, Hyderabad
+Experience: 1-3 years
+
+We are looking for a skilled CNC Machine Operator to set up, operate, and maintain CNC machines. The candidate should be able to read and interpret blueprints, select appropriate tools and materials, and ensure precision in all operations.
+
+Required Skills:
+- CNC programming (G-code, M-code)
+- Blueprint reading and interpretation
+- Precision measurement using micrometers, vernier calipers
+- Knowledge of cutting tools and tool geometry
+- Quality inspection and GD&T basics
+- Basic computer operation
+- Safety protocols for machine shop
+
+Qualification: ITI in Turner/Machinist or Diploma in Mechanical Engineering
+Salary: ₹18,000 - ₹28,000/month
+
+--- JOB POSTING 2 ---
+Title: Industrial Electrician
+Company: Larsen & Toubro, Pune
+Experience: 2-4 years
+
+Looking for an Industrial Electrician for our manufacturing plant. Must be able to install, maintain, and troubleshoot industrial electrical systems including motors, PLCs, and control panels.
+
+Required Skills:
+- Industrial wiring and cable routing
+- PLC programming basics (Siemens/Allen Bradley)
+- Motor control circuits (DOL, Star-Delta, VFD)
+- Electrical panel assembly and wiring
+- Troubleshooting using multimeters and clamp meters
+- Knowledge of IS/IE standards
+- Preventive maintenance scheduling
+- Single and three-phase power systems
+
+Qualification: ITI in Electrician or Diploma in Electrical Engineering
+Salary: ₹20,000 - ₹32,000/month
+
+--- JOB POSTING 3 ---
+Title: MIG/TIG Welder
+Company: Bharat Forge Ltd, Pune
+Experience: 1-2 years
+
+Urgently hiring certified welders for our forging division. Must be proficient in MIG and TIG welding on various metals including mild steel, stainless steel, and aluminum.
+
+Required Skills:
+- MIG welding (GMAW)
+- TIG welding (GTAW)
+- Arc welding (SMAW)
+- Blueprint and welding symbol reading
+- Metal preparation and joint fitting
+- Welding inspection and defect identification
+- Knowledge of welding positions (1G-6G)
+- Safety and PPE compliance
+- Basic metallurgy knowledge
+
+Qualification: ITI in Welder, ASNT/AWS certification preferred
+Salary: ₹16,000 - ₹25,000/month
+
+--- JOB POSTING 4 ---
+Title: Automotive Service Technician
+Company: Maruti Suzuki Authorized Service Center, Delhi NCR
+Experience: 0-2 years
+
+We need automobile mechanics for our authorized service center. Candidates should be able to diagnose and repair engine, transmission, and electrical faults in modern vehicles.
+
+Required Skills:
+- Engine diagnostics using OBD-II scanners
+- Fuel injection system repair
+- Brake system servicing (disc and drum)
+- Suspension and steering repair
+- Automotive electrical systems (ECU, sensors, wiring harness)
+- AC system servicing and gas charging
+- Knowledge of BS-VI emission norms
+- Customer communication skills
+
+Qualification: ITI in Mechanic Motor Vehicle or Automobile Engineering
+Salary: ₹15,000 - ₹22,000/month
+
+--- JOB POSTING 5 ---
+Title: Plumbing Technician
+Company: Shapoorji Pallonji Construction, Mumbai
+Experience: 1-3 years
+
+Hiring experienced plumbers for large-scale commercial construction projects. Must handle installation of water supply, drainage, and fire sprinkler systems.
+
+Required Skills:
+- Pipe fitting and installation (GI, CPVC, PPR, HDPE)
+- Drainage system layout and installation
+- Fire sprinkler system basics
+- Water pump installation and maintenance
+- Blueprint reading for plumbing layouts
+- Soldering, threading, and joining techniques
+- Pressure testing and leak detection
+- Knowledge of local plumbing codes
+
+Qualification: ITI in Plumber or equivalent experience
+Salary: ₹14,000 - ₹20,000/month
+
+--- JOB POSTING 6 ---
+Title: Computer Hardware & Networking Technician
+Company: HCL Infosystems, Bangalore
+Experience: 0-1 years
+
+Looking for freshers with ITI COPA or hardware background to join our IT support team. Will handle desktop support, network troubleshooting, and basic server maintenance.
+
+Required Skills:
+- PC assembly, disassembly, and troubleshooting
+- Windows and Linux OS installation and configuration
+- Network setup (LAN, Wi-Fi, routers, switches)
+- Printer and peripheral installation
+- Data backup and recovery
+- Basic cybersecurity awareness
+- Help desk and ticketing systems
+- MS Office proficiency
+- Cable crimping and structured cabling
+
+Qualification: ITI in COPA or Diploma in Computer Hardware
+Salary: ₹12,000 - ₹18,000/month
+
+--- JOB POSTING 7 ---
+Title: Fitter - Precision Assembly
+Company: Bosch Limited, Jaipur
+Experience: 2-5 years
+
+Experienced fitters needed for precision assembly of automotive components. Must be skilled in reading engineering drawings and performing bench fitting operations.
+
+Required Skills:
+- Bench fitting (filing, drilling, tapping, reaming)
+- Engineering drawing reading
+- Precision measurement instruments
+- Assembly and sub-assembly of mechanical components
+- Use of hand tools and power tools
+- Surface plate marking and layout
+- Tolerance and fits understanding (ISO system)
+- 5S and Kaizen methodology
+- Quality control and SPC basics
+
+Qualification: ITI in Fitter, NAC preferred
+Salary: ₹17,000 - ₹26,000/month
+
+--- JOB POSTING 8 ---
+Title: HVAC Technician
+Company: Blue Star Ltd, Chennai
+Experience: 1-3 years
+
+Hiring HVAC technicians for installation and maintenance of central air conditioning systems in commercial buildings.
+
+Required Skills:
+- Split AC and window AC installation
+- VRV/VRF system maintenance
+- Chiller plant operation
+- Duct fabrication and installation
+- Refrigerant handling (R-32, R-410A)
+- Electrical control circuit reading
+- Brazing and soldering of copper pipes
+- Psychrometric chart understanding
+- Energy efficiency and star rating knowledge
+- Building Management System (BMS) basics
+
+Qualification: ITI in Refrigeration & AC Mechanic or Diploma in Mechanical
+Salary: ₹16,000 - ₹24,000/month
+
+--- JOB POSTING 9 ---
+Title: Electronics Repair Technician
+Company: Samsung India Electronics, Noida
+Experience: 1-2 years
+
+Service technicians needed for repair and maintenance of consumer electronics including TVs, washing machines, and refrigerators at our authorized service center.
+
+Required Skills:
+- PCB-level troubleshooting and soldering
+- SMD component identification and replacement
+- Oscilloscope and signal generator usage
+- Inverter circuit repair
+- Microcontroller basics (Arduino/embedded systems)
+- LCD/LED display panel repair
+- Compressor and thermostat testing (for appliances)
+- Customer service and documentation
+- ESD safety procedures
+
+Qualification: ITI in Electronics Mechanic or Diploma in Electronics
+Salary: ₹14,000 - ₹21,000/month
+
+--- JOB POSTING 10 ---
+Title: Solar PV Installation Technician
+Company: Tata Power Solar, Multiple Locations
+Experience: 0-2 years
+
+Growing team needs solar installation technicians for rooftop and ground-mount PV projects. Training will be provided on latest technologies.
+
+Required Skills:
+- Solar panel mounting and alignment
+- DC wiring and string connections
+- Inverter installation and commissioning
+- Net metering setup knowledge
+- Electrical safety for DC systems
+- Basic AutoCAD for layout planning
+- Multimeter usage for IV curve testing
+- Knowledge of MNRE guidelines
+- Rooftop structural assessment basics
+- Battery storage system basics (emerging)
+
+Qualification: ITI in Electrician or Wireman, solar certification preferred
+Salary: ₹15,000 - ₹22,000/month
+
+--- JOB POSTING 11 ---
+Title: EV Battery Technician
+Company: Ather Energy, Bangalore
+Experience: 1-3 years
+
+Exciting opportunity in the EV sector! Looking for technicians to assemble, test, and service lithium-ion battery packs for electric two-wheelers.
+
+Required Skills:
+- Lithium-ion battery cell testing and grading
+- Battery Management System (BMS) diagnostics
+- High-voltage safety protocols
+- Spot welding and cell-to-pack assembly
+- Thermal management system understanding
+- CAN bus communication basics
+- Quality testing (capacity, impedance, cycle life)
+- Data logging and analysis
+- EV charging infrastructure knowledge
+- First aid for electrical emergencies
+
+Qualification: ITI in Electrician/Electronics or Diploma in EE/ECE
+Salary: ₹20,000 - ₹35,000/month
+
+--- JOB POSTING 12 ---
+Title: Industrial IoT Technician
+Company: Siemens India, Gurgaon
+Experience: 2-4 years
+
+We are building our Industry 4.0 team. Need technicians who bridge the gap between traditional manufacturing and digital technology.
+
+Required Skills:
+- PLC programming (Siemens S7/TIA Portal)
+- SCADA system configuration
+- Industrial sensor installation (proximity, temperature, pressure)
+- Basic Python/Node.js for data collection scripts
+- MQTT and OPC-UA protocols
+- Network configuration (industrial Ethernet)
+- HMI design and configuration
+- Preventive and predictive maintenance concepts
+- Data visualization dashboards
+- Cybersecurity basics for OT networks
+
+Qualification: ITI in Electrician/Electronics + additional certifications in automation
+Salary: ₹25,000 - ₹40,000/month
+
+--- JOB POSTING 13 ---
+Title: Sheet Metal Worker
+Company: Godrej & Boyce, Mumbai
+Experience: 1-3 years
+
+Skilled sheet metal workers needed for our appliance manufacturing division. Must be able to operate press brakes, shearing machines, and perform precision bending.
+
+Required Skills:
+- Sheet metal layout and pattern development
+- Press brake and shearing machine operation
+- Spot welding and riveting
+- Use of hand seamers, snips, and forming tools
+- Blueprint reading for sheet metal
+- Tolerance and dimensional accuracy
+- Powder coating preparation
+- Lean manufacturing basics
+- CNC press brake programming (bonus)
+
+Qualification: ITI in Sheet Metal Worker or Fitter
+Salary: ₹15,000 - ₹23,000/month
+
+--- JOB POSTING 14 ---
+Title: Drone Maintenance Technician
+Company: IdeaForge Technology, Mumbai
+Experience: 0-2 years
+
+Emerging role! Join India's leading drone manufacturer. Technicians will assemble, calibrate, and maintain UAVs for defense and commercial applications.
+
+Required Skills:
+- Drone assembly and airframe repair
+- Brushless motor and ESC testing
+- Flight controller programming (ArduPilot/PX4)
+- GPS and navigation sensor calibration
+- LiPo battery handling and safety
+- Basic soldering and wiring
+- Firmware updating and configuration
+- Pre-flight checklists and safety procedures
+- DGCA drone regulations awareness
+- Basic GIS and mapping concepts
+
+Qualification: ITI in Electronics/Electrician or Diploma in ECE/Mechatronics
+Salary: ₹18,000 - ₹30,000/month
+
+--- JOB POSTING 15 ---
+Title: CNC Programmer / Operator (Advanced)
+Company: HAL (Hindustan Aeronautics Limited), Bangalore
+Experience: 3-5 years
+
+Advanced CNC roles for aerospace component manufacturing. Must have experience with 5-axis machining and tight tolerance work.
+
+Required Skills:
+- 5-axis CNC programming
+- CAM software (MasterCAM, Siemens NX)
+- Aerospace material machining (titanium, Inconel)
+- CMM operation and inspection
+- Tool path optimization
+- SPC and Six Sigma basics
+- GD&T (ASME Y14.5)
+- AS9100 quality standards
+- Tool life management
+- Lean manufacturing principles
+
+Qualification: ITI in Machinist/Turner + NAC, B.Voc preferred
+Salary: ₹30,000 - ₹50,000/month
+
+--- JOB POSTING 16 ---
+Title: Water Treatment Plant Operator
+Company: VA Tech Wabag, Chennai
+Experience: 1-2 years
+
+Operators needed for municipal and industrial water treatment plants. Must understand water chemistry and treatment processes.
+
+Required Skills:
+- RO plant operation and maintenance
+- Water quality testing (pH, TDS, turbidity, BOD)
+- Chemical dosing systems
+- Filter and membrane cleaning
+- Pump operation and maintenance
+- PLC-based automation system operation
+- SCADA monitoring
+- Safety and chemical handling
+- Log book maintenance and reporting
+- Basic understanding of environmental regulations
+
+Qualification: ITI in Plumber/Fitter or Diploma in Chemical Engineering
+Salary: ₹14,000 - ₹20,000/month
+
+--- JOB POSTING 17 ---
+Title: 3D Printing Technician
+Company: Wipro 3D (Wipro Infrastructure Engineering), Bangalore
+Experience: 0-2 years
+
+Exciting additive manufacturing opportunity. Technicians will operate industrial 3D printers and post-process metal and polymer parts.
+
+Required Skills:
+- FDM and SLA 3D printer operation
+- Metal 3D printing basics (SLM/DMLS)
+- CAD file preparation and slicing (Cura, PrusaSlicer)
+- Post-processing (support removal, sanding, heat treatment)
+- Material knowledge (PLA, ABS, Nylon, metal powders)
+- Basic CAD (Fusion 360, SolidWorks)
+- Quality inspection and measurement
+- Machine maintenance and calibration
+- Powder handling safety
+- Design for Additive Manufacturing (DfAM) basics
+
+Qualification: ITI in any mechanical trade + portfolio of 3D printed projects
+Salary: ₹16,000 - ₹28,000/month
+
+--- JOB POSTING 18 ---
+Title: Robotic Welding Operator
+Company: Hyundai Motor India, Chennai
+Experience: 2-4 years
+
+Operators needed for our robotic welding line in the body shop. Must understand both manual welding and robotic programming.
+
+Required Skills:
+- Robotic arm operation (Fanuc/ABB/KUKA)
+- Robot teach pendant programming
+- Spot welding and MIG welding (manual and robotic)
+- Weld quality inspection
+- Jig and fixture understanding
+- Basic PLC and safety interlock systems
+- Production line workflow management
+- TPM (Total Productive Maintenance)
+- Quality documentation (PPAP, FMEA basics)
+- Kaizen and continuous improvement
+
+Qualification: ITI in Welder/Fitter + robotics training certificate
+Salary: ₹22,000 - ₹35,000/month

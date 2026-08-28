@@ -1,0 +1,44 @@
+---
+description: SkillBridge SIH26134 MVP scope, architecture, and data rules
+alwaysApply: true
+---
+
+# SkillBridge MVP (SIH26134)
+
+Maharashtra-only labour-market intelligence demo. Multi-sector, not multi-state.
+
+## Product (exactly 3 UI areas)
+
+1. Market Demand Radar
+2. Course–Market Gap Analyzer
+3. Resume–Market Alignment
+
+Do not add: chatbot, AI assistant, employer portal, district-planning page, recommendations page, auth, LangGraph, MCP, Qdrant, agents, microservices, fake live stats.
+
+## Geography and sectors
+
+Primary geography: Maharashtra districts already in project data.
+
+Sectors only: `IT / Digital`, `Manufacturing`, `Automotive / EV`, `Healthcare`, `Logistics`, `Renewable Energy`.
+
+Do not invent district-specific numerical demand statistics. Demo/derived values must set `data_status` to `demo` and keep evidence/source fields.
+
+## AI vs Python
+
+LLM: extract/normalize text → structured JSON only.
+
+Python: canonical skills, matching, scoring, gaps, role suggestion, UPDATE/EXPAND/REDUCE/RETAIN, recommendations.
+
+LLM must not score, choose course actions, or invent statistics/evidence.
+
+## Data
+
+JSON + Pydantic first. No SQLite until requested. Table-shaped records (stable `id` PKs, FKs as `skill_id` / `role_id`) so SQLite can replace files later.
+
+Canonical files: `backend/data/skills_catalog.json`, `roles.json`, `demand_signals.json`, `courses.json`.
+
+One matching module later; course→market and resume→market must share it.
+
+Employer validation is a `source_type` on signals (`job_posting`, `industry_report`, `employer_feedback`, `government_data`, `trend`). Do not fabricate `employer_feedback` rows.
+
+Do not implement a later phase until the user approves.

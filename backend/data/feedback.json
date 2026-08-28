@@ -1,0 +1,23 @@
+[
+  {
+    "recommendation_skill": "EV Battery Diagnostics & BMS",
+    "action": "approve",
+    "comment": "Validated by employer",
+    "employer_name": "Anonymous",
+    "timestamp": "2026-08-28T14:47:40.346551"
+  },
+  {
+    "recommendation_skill": "EV Battery Diagnostics & BMS",
+    "action": "reject",
+    "comment": "Rejected by employer",
+    "employer_name": "Anonymous",
+    "timestamp": "2026-08-28T14:48:38.817432"
+  },
+  {
+    "recommendation_skill": "CNC programming",
+    "action": "approve",
+    "comment": "Valid",
+    "employer_name": "Test HR",
+    "timestamp": "2026-08-28T21:34:14.988354"
+  }
+]

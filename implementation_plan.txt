@@ -1,0 +1,403 @@
+# 🎯 SkillBridge — Labour-Market Intelligence & Curriculum-Alignment Platform
+
+## SIH 2026 Problem Statement #26134
+
+> **"Challenges in aligning skill development programs with industry requirements and emerging job market demands"**
+> — Government of Maharashtra, Dept. of Skills, Employment, Entrepreneurship & Innovation
+
+---
+
+## PS Requirement → Feature Mapping
+
+Every single PS requirement is mapped to a specific feature in our platform:
+
+| PS Requirement | Page | Feature |
+|----------------|------|---------|
+| Job-posting signals | 📊 P1, 🤖 P2 | AI-extracted skills from job postings, trend charts |
+| Employer surveys / validation | 💡 P4 | Employer feedback panel with approve/reject + comments |
+| Industry consultations | 🤖 P2 | Paste any industry requirement → AI extracts structured demands |
+| Sector growth data | 📊 P1 | Sector-wise growth charts, district-wise demand heatmap |
+| Placement outcomes | 📊 P1 | Placement rate tracking by program, district, year |
+| Emerging-technology trends | 📊 P1 | Trending/emerging skills with growth %, declining skills flagged |
+| Identify demand by role, skill, location, proficiency | 📊 P1 | District-wise demand breakdown with role + skill + level filters |
+| Map skill gaps to qualifications & courses | 🔍 P3 | Side-by-side: industry skills vs course skills with gap matrix |
+| Recommend curriculum updates | 💡 P4 | AI-generated recommendations: update course, add module, etc. |
+| Flag obsolete or oversupplied courses | 💡 P4 | Courses with declining demand or excess capacity flagged in red |
+| Support employer validation | 💡 P4 | Employer approve/reject with comments, validation status tracking |
+| Generate district-level training plans | 📊 P1 | District-wise recommended program mix based on local industry |
+| Stronger placement rates | 📊 P1 | Placement tracking dashboard |
+| Reduced mismatch | 🔍 P3 | Gap coverage score per program |
+| Better equipment & trainer planning | 💡 P4 | Recommendation types: "Add Equipment", "Train Instructor" |
+| Clearer career pathways for candidates | 🎓 P5 | Interest-based + resume-based career path recommendations |
+
+---
+
+## What Changes From Current Prototype
+
+> [!IMPORTANT]
+> **Major scope change**: The current app says "ITI" everywhere. The PS covers ALL skill development — ITI, PMKVY (Pradhan Mantri Kaushal Vikas Yojana), state-level skill missions, NSDC programs, short-term/long-term courses, and private training providers. All branding, data, and language must be broadened.
+
+| Aspect | Current (Wrong) | Corrected |
+|--------|----------------|-----------|
+| App Name | "SkillBridge — ITI Skill Gap Analyzer" | "SkillBridge — Skill-Market Alignment Platform" |
+| Scope | ITI trades only (15) | All skill programs: ITI + PMKVY + state + private (25+) |
+| Branding | "ITI Skill Gap" | "Labour-Market Intelligence & Curriculum Alignment" |
+| Location focus | Generic India | **Maharashtra** districts (Pune, Mumbai, Nagpur, Nashik, Aurangabad, Thane, Kolhapur, Solapur) |
+| Course data | 15 ITI trades | 25+ programs across ITI, PMKVY, state-level, short-term |
+| Employer role | Simple approve/reject | Structured validation with industry priority feedback |
+| Resume parser | Standalone Groq script | Integrated Gemini-based parser (reference: `resume_parser.txt`) |
+| District plans | Not present | District-level recommended training mix |
+
+---
+
+## Open Questions
+
+1. **Maharashtra focus**: The PS is from Government of Maharashtra. Should ALL district data be Maharashtra-specific (Pune, Mumbai, Nagpur, Nashik, etc.) or keep some pan-India?
+2. **App name**: I'll use **"SkillBridge"** as the app name with subtitle **"Labour-Market Intelligence & Curriculum-Alignment Platform"**. Good?
+3. **Resume parser LLM**: Your `resume_parser.txt` uses Groq. I'll adapt the concept to use **Gemini** (same API key as rest of platform). Okay?
+
+---
+
+## Proposed Changes
+
+### Phase 1 — Data Layer (Broadened Scope)
+
+#### [MODIFY] [courses.json](file:///c:/Users/Siddharth_JD/SIH26/backend/data/courses.json) → Expand from 15 ITI-only to 25+ programs
+
+Add programs beyond ITI:
+- **PMKVY short-term** (3-6 months): Solar Technician, EV Service Tech, Drone Pilot, Data Entry Operator, Beauty Therapist
+- **State skill mission**: Maharashtra State Skill Development Society (MSSDS) programs
+- **Industry-specific**: Certified courses by NSDC sector skill councils
+- Each program keeps: `program_type` ("ITI" | "PMKVY" | "State" | "Private" | "NSDC"), `skills_taught[]`, `duration_months`, `enrollment`, `placement_rate`, `institute`, `district`, `sector`
+- **Add new fields**: `is_obsolete` (boolean), `oversupply_risk` ("high"|"medium"|"low"), `last_curriculum_update` (year)
+
+#### [NEW] [market_data.json](file:///c:/Users/Siddharth_JD/SIH26/backend/data/market_data.json)
+
+Comprehensive Maharashtra-focused market intelligence:
+- **District-wise industry demand**: 8 Maharashtra districts with sector breakdown and job openings
+- **Trending skills** (15): Skills with growth % and sector (e.g., "EV Battery Diagnostics" +340%, "IoT Sensors" +180%)
+- **Emerging skills** (10): Industry 4.0 / futuristic skills not yet in any course
+- **Declining skills** (8): Skills losing market relevance (flagged for course revision)
+- **Job trend timeline**: Monthly job posting volumes for last 12 months by sector
+- **District placement data**: Placement rates and avg salary by district and program type
+
+#### [NEW] [recommendations.json](file:///c:/Users/Siddharth_JD/SIH26/backend/data/recommendations.json)
+
+Pre-computed program improvement recommendations (18-20 items):
+- `type`: "update_curriculum" | "new_course" | "add_equipment" | "train_instructor" | "flag_obsolete" | "reduce_capacity"
+- `priority`: "critical" | "high" | "medium"
+- `target_skill`: The skill this addresses
+- `current_gap`: What's wrong now
+- `recommendation`: Specific action
+- `reason`: Evidence-based rationale with demand data
+- `estimated_impact`: Expected improvement
+- `affected_programs[]`: Which programs are impacted
+- `district_relevance[]`: Which districts need this most
+- `employer_validated`: boolean (has any employer approved this?)
+
+#### [NEW] [student_programs.json](file:///c:/Users/Siddharth_JD/SIH26/backend/data/student_programs.json)
+
+Student-facing career pathway data (25+ programs):
+- `program_name`, `program_type`, `category`, `duration`, `description`
+- `skills_covered[]`, `career_paths[]`
+- `current_demand`: "high" | "medium" | "low"
+- `future_outlook`: "growing" | "stable" | "declining"
+- `avg_salary_range`, `placement_rate`
+- `district_availability[]`: Which Maharashtra districts offer this
+- `recommended_for[]`: Interest category tags
+
+#### [NEW] [district_plans.json](file:///c:/Users/Siddharth_JD/SIH26/backend/data/district_plans.json)
+
+District-level training plans (8 Maharashtra districts):
+- `district`, `top_industries[]`, `priority_skills[]`
+- `recommended_program_mix`: How many seats per program type
+- `current_vs_recommended`: Gap between current capacity and demand
+- `placement_target`, `investment_priority`
+
+---
+
+### Phase 2 — Backend API (New + Modified Endpoints)
+
+#### [MODIFY] [main.py](file:///c:/Users/Siddharth_JD/SIH26/backend/main.py)
+
+**Updated existing endpoints:**
+- `GET /api/courses` → now returns 25+ programs with `program_type` filter
+- `GET /api/skillgap` → broader skill set covering all program types
+- `GET /api/stats` → updated aggregates for all program types
+
+**New endpoints:**
+```python
+GET  /api/market-intelligence     # District demand, trending/emerging/declining skills, job trends
+GET  /api/skill-comparison        # Industry skills vs course skills matrix with match scores  
+GET  /api/recommendations         # Program improvement recs with type/priority filters
+GET  /api/district-plans          # District-level training plans for Maharashtra
+GET  /api/student/programs        # ?interest=<category> — filtered career recommendations
+
+POST /api/resume/parse            # Upload PDF/DOCX → Gemini extracts structured resume
+POST /api/resume/match-programs   # Upload PDF/DOCX → returns program match scores
+```
+
+#### [MODIFY] [models.py](file:///c:/Users/Siddharth_JD/SIH26/backend/models.py)
+
+New Pydantic models:
+- `DistrictDemand` — district, sectors, openings, growth trend
+- `TrendingSkill` — name, growth%, sector, demand level
+- `SkillComparison` — industry skill vs program coverage matrix
+- `ProgramRecommendation` — type, priority, evidence, impact, employer validation status
+- `DistrictPlan` — district training plan with program mix
+- `StudentProgram` — program with demand scores and career paths
+- `ParsedResume` — adapted from `resume_parser.txt` Resume schema
+- `ProgramMatch` — score, matching skills, missing skills, verdict
+
+#### [NEW] [resume_parser.py](file:///c:/Users/Siddharth_JD/SIH26/backend/resume_parser.py)
+
+**Adapted from** [resume_parser.txt](file:///c:/Users/Siddharth_JD/SIH26/resume_parser.txt) as reference:
+- **Groq → Gemini**: Same `gemini-2.0-flash` model as `analysis.py`
+- **PDF/DOCX reading**: Same `pypdf` + `python-docx` approach
+- **Pydantic Resume model**: name, email, skills, experiences, education, projects, certifications
+- **New**: `match_resume_to_programs()` — compares student's skills against all available programs, calculates match %, identifies gaps, gives verdict
+- **FastAPI `UploadFile`** handling for multipart form data
+
+#### [MODIFY] [requirements.txt](file:///c:/Users/Siddharth_JD/SIH26/backend/requirements.txt)
+
+Add:
+```
+pypdf
+python-docx
+python-multipart
+```
+
+---
+
+### Phase 3 — Frontend Navigation & Branding
+
+#### [MODIFY] [index.html](file:///c:/Users/Siddharth_JD/SIH26/frontend/index.html)
+- Fix `<title>` to "SkillBridge — Skill-Market Alignment Platform"
+- Add proper meta description referencing PS #26134
+- Add Open Graph tags
+
+#### [MODIFY] [Navbar.jsx](file:///c:/Users/Siddharth_JD/SIH26/frontend/src/components/Navbar.jsx)
+5-tab navigation:
+```
+📊 Market Intelligence  |  🤖 AI Analyzer  |  🔍 Skill Gap  |  💡 Recommendations  |  🎓 Student Portal
+```
+- Title: "SkillBridge" with subtitle "Skill-Market Alignment Platform"
+- Responsive hamburger menu for mobile
+- Active tab with animated underline
+
+#### [MODIFY] [App.jsx](file:///c:/Users/Siddharth_JD/SIH26/frontend/src/App.jsx)
+- Add 2 new page components
+- Rewire page toggle for 5 pages
+- Add smooth fade transitions
+- Update footer branding
+
+#### [MODIFY] [client.js](file:///c:/Users/Siddharth_JD/SIH26/frontend/src/api/client.js)
+Add API functions for all new endpoints including resume upload with `FormData`.
+
+---
+
+### Phase 4 — Page 1: 📊 Market Intelligence Dashboard
+
+#### [MODIFY] [Dashboard.jsx](file:///c:/Users/Siddharth_JD/SIH26/frontend/src/components/Dashboard.jsx)
+
+Complete redesign — the "command center" for skill-market intelligence:
+
+1. **Hero Stats Row** (6 animated cards):
+   - Total Job Openings | Active Districts | Trending Skills | Skill Programs | Avg Placement Rate | Emerging Technologies
+
+2. **District-Wise Demand** (horizontal bar chart):
+   - 8 Maharashtra districts with job openings per sector
+   - Color-coded by sector (Manufacturing, IT, Auto, etc.)
+
+3. **Trending & Emerging Skills** (card grid):
+   - Trending: Top 10 skills with growth % badges (↑ 340%)
+   - Emerging: Industry 4.0 skills with "NEW" glow badges
+   - Declining: Faded red cards with ↓ arrows
+
+4. **Job Trend Timeline** (line chart):
+   - Monthly job posting volume by sector (12 months)
+   - Shows seasonal patterns and growth trends
+
+5. **Placement Rate Overview** (bar chart):
+   - District-wise placement rates compared to state target
+   - Color-coded (green = above target, red = below)
+
+6. **District Training Plans** (summary cards):
+   - Quick view of each district's priority skills and recommended program mix
+
+---
+
+### Phase 5 — Page 2: 🤖 AI Job & Industry Analyzer
+
+#### [MODIFY] [ExtractDemo.jsx](file:///c:/Users/Siddharth_JD/SIH26/frontend/src/components/ExtractDemo.jsx)
+
+Enhancements (core functionality stays — it works well):
+- Update branding from "ITI" references to broader skill development
+- Add dropdown with 3 sample job postings (CNC, EV Tech, IoT)
+- Better result cards with animated skill pill reveals
+- Add "What does this mean?" section explaining how extracted skills feed into gap analysis
+- Keep the Gemini AI extraction as the hero feature
+
+---
+
+### Phase 6 — Page 3: 🔍 Skill Gap Analyzer (NEW)
+
+#### [NEW] [SkillGapAnalyzer.jsx](file:///c:/Users/Siddharth_JD/SIH26/frontend/src/components/SkillGapAnalyzer.jsx)
+
+The evidence-based gap detection page:
+
+1. **Summary Cards**: Total skills analyzed, ✅ Covered, ❌ Gaps, 🆕 Emerging, ⚠️ Partial
+2. **Gap Matrix** (heatmap table):
+   - Rows = Industry-required skills (60+)
+   - Columns = Skill development programs (25+)
+   - Cells = ✅ Taught | ⚠️ Partial | ❌ Not Taught | 🆕 Emerging
+   - Scrollable with sticky headers
+3. **Filter Bar**: Filter by status, sector, demand level, program type (ITI/PMKVY/State/Private)
+4. **Course Coverage Score**: Each program gets a coverage % — shows how well it matches industry needs
+5. **Gap Detail Cards**: Expandable cards for each gap/emerging skill:
+   - Which industries need it (with demand level)
+   - Which programs are closest
+   - Recommended action
+6. **Obsolete Skills Flags**: Skills that are declining in demand but still heavily taught → flagged in red
+
+---
+
+### Phase 7 — Page 4: 💡 Program Improvement & Recommendations
+
+#### [MODIFY] [EmployerPanel.jsx](file:///c:/Users/Siddharth_JD/SIH26/frontend/src/components/EmployerPanel.jsx)
+
+Complete rework into evidence-based recommendation engine:
+
+1. **Summary Stats** (6 cards): Update Curriculum | New Course | Add Equipment | Train Instructor | Flag Obsolete | Reduce Capacity
+
+2. **Filter Bar**: By recommendation type, priority, district, and employer validation status
+
+3. **Recommendation Cards** — Each shows:
+   - 🏷️ **Type badge**: Update Curriculum / New Course / Add Equipment / Train Instructor / Flag Obsolete / Reduce Capacity
+   - 🎯 **Priority**: Critical (pulsing red) | High (orange) | Medium (blue)
+   - **Target skill** + what's currently wrong
+   - **Specific recommendation** with actionable steps
+   - **Evidence**: Demand data, growth %, placement impact
+   - **Estimated impact**: Expected improvement
+   - **Affected programs** and **relevant districts**
+   - **Employer validation**: ✅ Validated / ⏳ Pending / 👍👎 buttons
+
+4. **Obsolete Course Alerts**: Dedicated section for programs flagged as obsolete or oversupplied — these are PS-specific requirements
+
+5. **Employer Feedback Section**: Name/org input + structured feedback with comments (retained from current EmployerPanel)
+
+---
+
+### Phase 8 — Page 5: 🎓 Student Career & Course Portal (NEW)
+
+#### [NEW] [StudentPortal.jsx](file:///c:/Users/Siddharth_JD/SIH26/frontend/src/components/StudentPortal.jsx)
+
+**Two Modes** (tab toggle):
+
+**Mode 1 — Browse by Interest** (default):
+1. **Interest Selector**: Beautiful card grid:
+   - Manufacturing, IT & Software, Automobile, Electrical, Electronics, Construction, HVAC/RAC, Automation & IoT, Design & CAD
+   - Each card: icon, gradient background, hover animation
+2. **Program Results**: Filtered programs showing:
+   - Name, type (ITI/PMKVY/State), duration
+   - 📊 Current Demand + 📈 Future Outlook badges
+   - 💰 Salary range, 🎯 Placement rate
+   - Career paths as tags
+   - Skills covered as pills
+   - District availability
+3. **Sorting**: By demand, salary, placement rate, duration
+
+**Mode 2 — Resume Upload & AI Matching**:
+1. **Upload Zone**: Drag-and-drop for PDF/DOCX
+   - Reference: [resume_parser.txt](file:///c:/Users/Siddharth_JD/SIH26/resume_parser.txt) approach
+   - Uses Gemini (not Groq) for consistency
+2. **Parsed Resume Display**: Clean card with extracted name, skills, education, experience
+3. **Program Match Results**: Each program scored 0–100%:
+   - Animated progress bar
+   - ✅ Matching skills (green pills)
+   - ⚠️ Missing skills (orange pills = upskilling opportunities)
+   - Verdict: "Strong match", "Good fit with upskilling", etc.
+   - Sorted by match score
+
+---
+
+### Phase 9 — CSS Design System Overhaul
+
+#### [MODIFY] [index.css](file:///c:/Users/Siddharth_JD/SIH26/frontend/src/index.css)
+
+Premium upgrade while keeping government-appropriate aesthetics:
+
+- **Font**: Roboto → Inter (modern, better readability)
+- **Glassmorphism**: `backdrop-filter: blur(10px)` on cards with semi-transparent backgrounds
+- **Gradient accents**: Subtle gradient borders, header gradient `linear-gradient(135deg, #003366, #0056b3)`
+- **Micro-animations**: Fade-in on load, hover scale on cards, animated underlines, skill pill reveals
+- **Animated stat counters**: Numbers count up from 0 on mount
+- **Enhanced badges**: Glow effect on emerging/critical items, pulse on critical priority
+- **New component styles**: Interest selector cards, recommendation type badges, gap matrix cells, resume upload zone, match score bars, district plan cards
+- **Fix existing issues**: CartesianGrid stroke color, Recharts tooltip theme mismatch
+- **Responsive**: Full mobile support for all 5 pages with hamburger nav
+- **Delete unused** [App.css](file:///c:/Users/Siddharth_JD/SIH26/frontend/src/App.css)
+
+---
+
+## File Change Summary
+
+| Action | File | What |
+|--------|------|------|
+| MODIFY | `backend/data/courses.json` | Expand from 15 ITI → 25+ all program types |
+| NEW | `backend/data/market_data.json` | Maharashtra market intelligence |
+| NEW | `backend/data/recommendations.json` | 18-20 program improvement recs |
+| NEW | `backend/data/student_programs.json` | 25+ student career programs |
+| NEW | `backend/data/district_plans.json` | 8 district training plans |
+| MODIFY | `backend/main.py` | Add 7 new API endpoints |
+| MODIFY | `backend/models.py` | Add 8 new Pydantic models |
+| NEW | `backend/resume_parser.py` | Gemini-based resume parser (ref: resume_parser.txt) |
+| MODIFY | `backend/requirements.txt` | Add pypdf, python-docx, python-multipart |
+| MODIFY | `frontend/index.html` | Fix title, add meta tags |
+| MODIFY | `frontend/src/App.jsx` | 5-page routing + transitions |
+| MODIFY | `frontend/src/components/Navbar.jsx` | 5-tab nav + mobile hamburger |
+| MODIFY | `frontend/src/components/Dashboard.jsx` | Full Market Intelligence redesign |
+| MODIFY | `frontend/src/components/ExtractDemo.jsx` | Broader branding + enhancements |
+| NEW | `frontend/src/components/SkillGapAnalyzer.jsx` | Gap matrix + filters + coverage scores |
+| MODIFY | `frontend/src/components/EmployerPanel.jsx` | Rework into Recommendations engine |
+| NEW | `frontend/src/components/StudentPortal.jsx` | Interest browse + resume AI matching |
+| MODIFY | `frontend/src/api/client.js` | Add all new API calls |
+| MODIFY | `frontend/src/index.css` | Premium UI overhaul |
+| DELETE | `frontend/src/App.css` | Remove unused file |
+
+---
+
+## Verification Plan
+
+### Automated Tests
+```bash
+# Backend — all endpoints
+curl http://localhost:8000/api/market-intelligence
+curl http://localhost:8000/api/skill-comparison
+curl http://localhost:8000/api/recommendations
+curl http://localhost:8000/api/district-plans
+curl "http://localhost:8000/api/student/programs?interest=Manufacturing"
+curl http://localhost:8000/api/courses
+curl http://localhost:8000/api/skillgap
+curl http://localhost:8000/api/stats
+
+# Resume parser (use real resumes from resume/ folder)
+curl -X POST http://localhost:8000/api/resume/parse \
+  -F "file=@../resume/abhay resume new - Abhay Singh.pdf"
+curl -X POST http://localhost:8000/api/resume/match-programs \
+  -F "file=@../resume/Resume for Freshers - Priyanshu Singh.pdf"
+```
+
+### Manual Verification
+1. Start backend: `cd backend && uvicorn main:app --reload`
+2. Start frontend: `cd frontend && npm run dev`
+3. Walk through all **5 pages**:
+   - **P1 Market Intelligence**: District charts render, trending/emerging/declining skills display, job trend timeline, placement rates
+   - **P2 AI Analyzer**: Paste job posting → Gemini extraction works
+   - **P3 Skill Gap**: Gap matrix renders with heatmap, filters work, coverage scores display, obsolete flags show
+   - **P4 Recommendations**: Cards show with type/priority, filter works, employer validation buttons, obsolete course alerts
+   - **P5 Student Portal (Interest)**: Select interests → programs filtered by demand
+   - **P5 Student Portal (Resume)**: Upload real PDF → parsed data displays → match scores with skill comparison
+4. Verify Maharashtra district focus in all data
+5. Responsive test on mobile viewport
+6. Full demo flow: Market Intelligence → AI Analyzer → Skill Gap → Recommendations → Student Portal

@@ -1,0 +1,359 @@
+{
+  "meta": {
+    "geography": "Maharashtra",
+    "data_status": "demo",
+    "note": "Qualitative Maharashtra demo corpus for SIH26134. Not live vacancy counts or verified district-level statistics."
+  },
+  "skills": [
+    {
+      "id": "sk_python_programming",
+      "canonical_name": "Python Programming",
+      "aliases": ["Python", "Python scripting", "python data collection scripts", "Basic Python/Node.js for data collection scripts"],
+      "sector": "IT / Digital",
+      "proficiency_levels": ["basic", "intermediate", "advanced"]
+    },
+    {
+      "id": "sk_javascript",
+      "canonical_name": "JavaScript",
+      "aliases": ["JavaScript", "JS", "Node.js"],
+      "sector": "IT / Digital",
+      "proficiency_levels": ["basic", "intermediate", "advanced"]
+    },
+    {
+      "id": "sk_sql_databases",
+      "canonical_name": "SQL and Databases",
+      "aliases": ["SQL", "basic database entry", "database"],
+      "sector": "IT / Digital",
+      "proficiency_levels": ["basic", "intermediate", "advanced"]
+    },
+    {
+      "id": "sk_computer_networking",
+      "canonical_name": "Computer Networking",
+      "aliases": ["networking basics", "Network setup", "LAN setup", "LAN", "Network setup (LAN, Wi-Fi, routers, switches)", "industrial networking", "Network configuration (industrial Ethernet)", "industrial Ethernet"],
+      "sector": "IT / Digital",
+      "proficiency_levels": ["basic", "intermediate", "advanced"]
+    },
+    {
+      "id": "sk_cybersecurity_fundamentals",
+      "canonical_name": "Cybersecurity Fundamentals",
+      "aliases": ["cybersecurity awareness", "Basic cybersecurity awareness", "Cybersecurity basics for OT networks", "cybersecurity basics"],
+      "sector": "IT / Digital",
+      "proficiency_levels": ["basic", "intermediate", "advanced"]
+    },
+    {
+      "id": "sk_linux_administration",
+      "canonical_name": "Linux Administration",
+      "aliases": ["Linux basics", "Windows and Linux OS installation and configuration"],
+      "sector": "IT / Digital",
+      "proficiency_levels": ["basic", "intermediate", "advanced"]
+    },
+    {
+      "id": "sk_pc_hardware",
+      "canonical_name": "PC Hardware Troubleshooting",
+      "aliases": ["PC assembly", "hardware troubleshooting", "PC assembly, disassembly, and troubleshooting", "Windows installation"],
+      "sector": "IT / Digital",
+      "proficiency_levels": ["basic", "intermediate", "advanced"]
+    },
+    {
+      "id": "sk_ms_office",
+      "canonical_name": "MS Office",
+      "aliases": ["MS Office", "MS Office proficiency", "MS Excel advanced", "MS Word formatting"],
+      "sector": "IT / Digital",
+      "proficiency_levels": ["basic", "intermediate", "advanced"]
+    },
+    {
+      "id": "sk_data_entry",
+      "canonical_name": "Data Entry",
+      "aliases": ["data entry", "typing speed 35+ WPM", "data accuracy and verification", "Basic Data Entry (Typing Only)"],
+      "sector": "IT / Digital",
+      "proficiency_levels": ["basic", "intermediate", "advanced"]
+    },
+    {
+      "id": "sk_cnc_programming",
+      "canonical_name": "CNC Programming",
+      "aliases": ["CNC programming", "CNC turning basics", "CNC programming (G-code, M-code)"],
+      "sector": "Manufacturing",
+      "proficiency_levels": ["basic", "intermediate", "advanced"]
+    },
+    {
+      "id": "sk_g_code_m_code",
+      "canonical_name": "G-code and M-code",
+      "aliases": ["G-code", "M-code", "G-code basics"],
+      "sector": "Manufacturing",
+      "proficiency_levels": ["basic", "intermediate", "advanced"]
+    },
+    {
+      "id": "sk_blueprint_reading",
+      "canonical_name": "Blueprint Reading",
+      "aliases": ["blueprint reading", "Blueprint reading and interpretation", "engineering drawing reading", "engineering drawing", "Blueprint and welding symbol reading", "welding symbol reading", "blueprint reading for plumbing", "Blueprint reading for plumbing layouts", "Blueprint reading for sheet metal"],
+      "sector": "Manufacturing",
+      "proficiency_levels": ["basic", "intermediate", "advanced"]
+    },
+    {
+      "id": "sk_precision_measurement",
+      "canonical_name": "Precision Measurement",
+      "aliases": ["precision measurement", "micrometer", "vernier caliper", "Precision measurement using micrometers, vernier calipers", "Precision measurement instruments"],
+      "sector": "Manufacturing",
+      "proficiency_levels": ["basic", "intermediate", "advanced"]
+    },
+    {
+      "id": "sk_gd_and_t",
+      "canonical_name": "GD&T",
+      "aliases": ["GD&T", "GD&T basics", "Quality inspection and GD&T basics", "GD&T ASME Y14.5", "GD&T (ASME Y14.5)", "tolerance and fits", "Tolerance and fits understanding (ISO system)"],
+      "sector": "Manufacturing",
+      "proficiency_levels": ["basic", "intermediate", "advanced"]
+    },
+    {
+      "id": "sk_quality_inspection",
+      "canonical_name": "Quality Inspection",
+      "aliases": ["quality inspection", "welding inspection", "Welding inspection and defect identification", "weld quality inspection", "Quality control and SPC basics", "SPC and Six Sigma basics"],
+      "sector": "Manufacturing",
+      "proficiency_levels": ["basic", "intermediate", "advanced"]
+    },
+    {
+      "id": "sk_mig_welding",
+      "canonical_name": "MIG Welding",
+      "aliases": ["MIG welding", "GMAW", "MIG welding (GMAW)", "MIG welding robotic"],
+      "sector": "Manufacturing",
+      "proficiency_levels": ["basic", "intermediate", "advanced"]
+    },
+    {
+      "id": "sk_tig_welding",
+      "canonical_name": "TIG Welding",
+      "aliases": ["TIG welding", "GTAW", "TIG welding (GTAW)"],
+      "sector": "Manufacturing",
+      "proficiency_levels": ["basic", "intermediate", "advanced"]
+    },
+    {
+      "id": "sk_gas_welding",
+      "canonical_name": "Gas Welding",
+      "aliases": ["gas welding", "Gas Welding (Oxy-Acetylene)"],
+      "sector": "Manufacturing",
+      "proficiency_levels": ["basic", "intermediate", "advanced"]
+    },
+    {
+      "id": "sk_plc_programming",
+      "canonical_name": "PLC Programming",
+      "aliases": ["PLC programming", "PLC programming basics", "PLC programming Siemens S7", "PLC programming (Siemens/Allen Bradley)", "PLC programming (Siemens S7/TIA Portal)", "TIA Portal", "PLC-based automation system operation"],
+      "sector": "Manufacturing",
+      "proficiency_levels": ["basic", "intermediate", "advanced"]
+    },
+    {
+      "id": "sk_scada_hmi",
+      "canonical_name": "SCADA and HMI",
+      "aliases": ["SCADA", "SCADA basics", "SCADA configuration", "SCADA system configuration", "HMI design", "HMI design and configuration", "SCADA monitoring"],
+      "sector": "Manufacturing",
+      "proficiency_levels": ["basic", "intermediate", "advanced"]
+    },
+    {
+      "id": "sk_five_axis_cnc",
+      "canonical_name": "5-Axis CNC Programming",
+      "aliases": ["5-axis CNC programming", "5-Axis CNC Machining"],
+      "sector": "Manufacturing",
+      "proficiency_levels": ["basic", "intermediate", "advanced"]
+    },
+    {
+      "id": "sk_cam_software",
+      "canonical_name": "CAM Software",
+      "aliases": ["CAM software", "MasterCAM", "CAM software (MasterCAM, Siemens NX)"],
+      "sector": "Manufacturing",
+      "proficiency_levels": ["basic", "intermediate", "advanced"]
+    },
+    {
+      "id": "sk_robotic_welding",
+      "canonical_name": "Robotic Welding",
+      "aliases": ["robotic arm operation", "Robotic arm operation (Fanuc/ABB/KUKA)", "Fanuc programming", "robot teach pendant", "Robot teach pendant programming", "spot welding robotic"],
+      "sector": "Manufacturing",
+      "proficiency_levels": ["basic", "intermediate", "advanced"]
+    },
+    {
+      "id": "sk_lean_manufacturing",
+      "canonical_name": "Lean Manufacturing",
+      "aliases": ["lean manufacturing", "Lean manufacturing basics", "Lean manufacturing principles", "Kaizen methodology", "5S and Kaizen methodology", "Kaizen and continuous improvement"],
+      "sector": "Manufacturing",
+      "proficiency_levels": ["basic", "intermediate", "advanced"]
+    },
+    {
+      "id": "sk_industrial_wiring",
+      "canonical_name": "Industrial Wiring",
+      "aliases": ["industrial wiring", "cable routing", "Industrial wiring and cable routing", "electrical panel wiring", "Electrical panel assembly and wiring", "motor control circuits", "Motor control circuits (DOL, Star-Delta, VFD)"],
+      "sector": "Manufacturing",
+      "proficiency_levels": ["basic", "intermediate", "advanced"]
+    },
+    {
+      "id": "sk_iot_sensors",
+      "canonical_name": "Industrial IoT Sensors",
+      "aliases": ["IoT sensors and actuators", "industrial sensors", "Industrial sensor installation (proximity, temperature, pressure)", "MQTT protocol", "MQTT and OPC-UA protocols", "OPC-UA"],
+      "sector": "Manufacturing",
+      "proficiency_levels": ["basic", "intermediate", "advanced"]
+    },
+    {
+      "id": "sk_ev_battery_diagnostics",
+      "canonical_name": "EV Battery Diagnostics",
+      "aliases": ["EV Battery Diagnostics & BMS", "Lithium-ion battery cell testing and grading", "battery pack inspection", "EV motor diagnostics"],
+      "sector": "Automotive / EV",
+      "proficiency_levels": ["basic", "intermediate", "advanced"]
+    },
+    {
+      "id": "sk_bms_diagnostics",
+      "canonical_name": "BMS Diagnostics",
+      "aliases": ["BMS diagnostics", "BMS diagnostics basics", "Battery Management System (BMS) diagnostics"],
+      "sector": "Automotive / EV",
+      "proficiency_levels": ["basic", "intermediate", "advanced"]
+    },
+    {
+      "id": "sk_high_voltage_safety",
+      "canonical_name": "High-Voltage Safety",
+      "aliases": ["high-voltage safety", "High-voltage safety protocols", "First aid for electrical emergencies"],
+      "sector": "Automotive / EV",
+      "proficiency_levels": ["basic", "intermediate", "advanced"]
+    },
+    {
+      "id": "sk_can_bus",
+      "canonical_name": "CAN Bus",
+      "aliases": ["CAN bus", "CAN bus reading", "CAN bus communication basics"],
+      "sector": "Automotive / EV",
+      "proficiency_levels": ["basic", "intermediate", "advanced"]
+    },
+    {
+      "id": "sk_ice_engine_diagnostics",
+      "canonical_name": "ICE Engine Diagnostics",
+      "aliases": ["engine diagnostics", "Engine diagnostics using OBD-II scanners", "OBD diagnostics", "OBD-II scanners"],
+      "sector": "Automotive / EV",
+      "proficiency_levels": ["basic", "intermediate", "advanced"]
+    },
+    {
+      "id": "sk_diesel_overhaul",
+      "canonical_name": "Diesel Engine Overhauling",
+      "aliases": ["diesel engine overhauling", "Diesel Engine Overhauling (Traditional)", "fuel injection pump repair", "fuel injection system", "Fuel injection system repair"],
+      "sector": "Automotive / EV",
+      "proficiency_levels": ["basic", "intermediate", "advanced"]
+    },
+    {
+      "id": "sk_automotive_electrical",
+      "canonical_name": "Automotive Electrical Systems",
+      "aliases": ["automotive electrical systems", "Automotive electrical systems (ECU, sensors, wiring harness)", "wiring harness", "EV wiring harness"],
+      "sector": "Automotive / EV",
+      "proficiency_levels": ["basic", "intermediate", "advanced"]
+    },
+    {
+      "id": "sk_charging_infrastructure",
+      "canonical_name": "EV Charging Infrastructure",
+      "aliases": ["charging station maintenance", "EV charging infrastructure knowledge"],
+      "sector": "Automotive / EV",
+      "proficiency_levels": ["basic", "intermediate", "advanced"]
+    },
+    {
+      "id": "sk_patient_care",
+      "canonical_name": "Patient Care Assistance",
+      "aliases": ["patient care", "basic nursing assistance", "activities of daily living support"],
+      "sector": "Healthcare",
+      "proficiency_levels": ["basic", "intermediate", "advanced"]
+    },
+    {
+      "id": "sk_vital_signs",
+      "canonical_name": "Vital Signs Monitoring",
+      "aliases": ["vital signs", "BP pulse temperature recording"],
+      "sector": "Healthcare",
+      "proficiency_levels": ["basic", "intermediate", "advanced"]
+    },
+    {
+      "id": "sk_infection_control",
+      "canonical_name": "Infection Prevention and Control",
+      "aliases": ["infection control", "hospital hygiene", "biomedical waste handling"],
+      "sector": "Healthcare",
+      "proficiency_levels": ["basic", "intermediate", "advanced"]
+    },
+    {
+      "id": "sk_phlebotomy",
+      "canonical_name": "Phlebotomy",
+      "aliases": ["venipuncture", "blood sample collection", "sample labeling"],
+      "sector": "Healthcare",
+      "proficiency_levels": ["basic", "intermediate", "advanced"]
+    },
+    {
+      "id": "sk_medical_records",
+      "canonical_name": "Medical Records Documentation",
+      "aliases": ["EHR basics", "patient documentation", "hospital information system"],
+      "sector": "Healthcare",
+      "proficiency_levels": ["basic", "intermediate", "advanced"]
+    },
+    {
+      "id": "sk_warehouse_operations",
+      "canonical_name": "Warehouse Operations",
+      "aliases": ["warehouse processes", "inbound outbound handling", "pick pack ship"],
+      "sector": "Logistics",
+      "proficiency_levels": ["basic", "intermediate", "advanced"]
+    },
+    {
+      "id": "sk_inventory_management",
+      "canonical_name": "Inventory Management",
+      "aliases": ["stock keeping", "cycle counting", "FIFO FEFO"],
+      "sector": "Logistics",
+      "proficiency_levels": ["basic", "intermediate", "advanced"]
+    },
+    {
+      "id": "sk_forklift_operation",
+      "canonical_name": "Forklift Operation",
+      "aliases": ["material handling equipment", "MHE operation", "reach truck"],
+      "sector": "Logistics",
+      "proficiency_levels": ["basic", "intermediate", "advanced"]
+    },
+    {
+      "id": "sk_wms_software",
+      "canonical_name": "Warehouse Management System",
+      "aliases": ["WMS", "barcode scanning", "handheld terminal"],
+      "sector": "Logistics",
+      "proficiency_levels": ["basic", "intermediate", "advanced"]
+    },
+    {
+      "id": "sk_gst_documentation",
+      "canonical_name": "GST and Dispatch Documentation",
+      "aliases": ["e-way bill", "GST documentation", "consignment notes"],
+      "sector": "Logistics",
+      "proficiency_levels": ["basic", "intermediate", "advanced"]
+    },
+    {
+      "id": "sk_solar_pv_installation",
+      "canonical_name": "Solar PV Installation",
+      "aliases": ["solar panel mounting", "Solar panel mounting and alignment", "solar panel installation", "Solar PV Installation & Commissioning"],
+      "sector": "Renewable Energy",
+      "proficiency_levels": ["basic", "intermediate", "advanced"]
+    },
+    {
+      "id": "sk_solar_dc_wiring",
+      "canonical_name": "Solar DC Wiring",
+      "aliases": ["DC wiring", "DC wiring and string connections", "electrical safety for DC", "Electrical safety for DC systems"],
+      "sector": "Renewable Energy",
+      "proficiency_levels": ["basic", "intermediate", "advanced"]
+    },
+    {
+      "id": "sk_inverter_commissioning",
+      "canonical_name": "Inverter Installation and Commissioning",
+      "aliases": ["inverter installation", "Inverter installation and commissioning"],
+      "sector": "Renewable Energy",
+      "proficiency_levels": ["basic", "intermediate", "advanced"]
+    },
+    {
+      "id": "sk_net_metering",
+      "canonical_name": "Net Metering",
+      "aliases": ["net metering setup", "Net metering setup knowledge"],
+      "sector": "Renewable Energy",
+      "proficiency_levels": ["basic", "intermediate", "advanced"]
+    },
+    {
+      "id": "sk_battery_storage",
+      "canonical_name": "Battery Energy Storage",
+      "aliases": ["battery storage basics", "Battery storage system basics (emerging)"],
+      "sector": "Renewable Energy",
+      "proficiency_levels": ["basic", "intermediate", "advanced"]
+    },
+    {
+      "id": "sk_site_survey_solar",
+      "canonical_name": "Solar Site Survey",
+      "aliases": ["site survey", "rooftop structural assessment", "Rooftop structural assessment basics", "MNRE guidelines", "Knowledge of MNRE guidelines"],
+      "sector": "Renewable Energy",
+      "proficiency_levels": ["basic", "intermediate", "advanced"]
+    }
+  ]
+}
